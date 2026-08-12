@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gilded & Co. | Luxo & Bilionarismo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Gilded & Co.</h1>
+        <p>Portal do Mercado de Alto Luxo, Ativos Escassos e Impérios Financeiros</p>
+    </header>
+
+    <main class="container">
+
+        <section class="card">
+            <h2><span>👑</span> Mercado de Alta Escassez</h2>
+            <ul class="ticker-list">
+                <li class="ticker-item">
+                    <span class="ticker-name">Ouro Pureza 24k (kg)</span>
+                    <span class="ticker-value" id="gold-price">R$ 412.500</span>
+                </li>
+                <li class="ticker-item">
+                    <span class="ticker-name">Diamante Azul (por quilate)</span>
+                    <span class="ticker-value">US$ 3.900.000</span>
+                </li>
+                <li class="ticker-item">
+                    <span class="ticker-name">Prata Fina (.999) (kg)</span>
+                    <span class="ticker-value" id="silver-price">R$ 5.120</span>
+                </li>
+                <li class="ticker-item">
+                    <span class="ticker-name">Diamante Rosa Argyle</span>
+                    <span class="ticker-value">US$ 2.100.000</span>
+                </li>
+            </ul>
+            <button class="btn-action" id="btn-cotacoes">Simular Variação de Mercado</button>
+        </section>
+
+        <section class="card">
+            <h2><span>💎</span> Calculadora de Rendimento</h2>
+            <div class="interactive-zone">
+                <label for="patrimonio">Patrimônio Investido: <b id="patrimonio-val">US$ 1 Bilhão</b></label>
+                <input type="range" id="patrimonio" min="1" max="100" value="1">
+
+                <label for="retorno">Retorno Anual Estimado: <b id="retorno-val">8%</b></label>
+                <input type="range" id="retorno" min="1" max="20" value="8">
+
+                <div class="result-display">
+                    <small>Rendimento Diário Estimado</small>
+                    <div class="result-value" id="resultado-diario">US$ 219.178</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2><span>🏛️</span> Composição de Riqueza</h2>
+            <p class="card-subtitle">
+                Como os maiores patrimônios do mundo distribuem seu capital:
+            </p>
+            <div class="asset-grid">
+                <div class="asset-box">
+                    <span>🏆</span>
+                    <b>Ouro e Metais</b>
+                    <p>Reserva de valor</p>
+                </div>
+                <div class="asset-box">
+                    <span>💍</span>
+                    <b>Joias Raras</b>
+                    <p>Ativos portáteis</p>
+                </div>
+                <div class="asset-box">
+                    <span>🏙️</span>
+                    <b>Real Estate</b>
+                    <p>Propriedades globais</p>
+                </div>
+                <div class="asset-box">
+                    <span>📈</span>
+                    <b>Equity</b>
+                    <p>Participação em empresas</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Gilded & Co. - Simulação de Interface Executiva de Alto Luxo.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
